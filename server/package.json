@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This folder contains the backend logic for the QuickAI project.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon srver.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/express": "^1.7.10",
+    "@google/generative-ai": "^0.24.1",
+    "@neondatabase/serverless": "^1.0.1",
+    "axios": "^1.10.0",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "openai": "^5.10.1",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.5",
+    "nodemon": "^3.1.10"
+  }
+}
